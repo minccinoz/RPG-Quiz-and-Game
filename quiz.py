@@ -8,6 +8,7 @@ def tally(x):
 	if x == "A":
 		global a
 		a += 1
+		return a
 	if x == "B":
 		global b
 		b += 1
