@@ -51,9 +51,9 @@ tally(answer2)
 print("Q3: If you were a superhero, who would you be?")
 print("A: Superman")
 print("B: Doctor Strange")
-print("C: Incredible Hulk")
+print("C: Wonderwoman")
 print("D: Batman")
-print("E: BLANK FOR NOW******************")
+print("E: Aquaman")
 answer3 = input("Choose one: ")
 tally(answer3)
 
@@ -98,7 +98,7 @@ print("A: Divergent")
 print("B: Harry Potter")
 print("C: Sun Tzu's Art of War")
 print("D: V for Vendetta")
-print("E: BLANK FOR NOW******************")
+print("E: The Giving Tree")
 answer8 = input("Choose one: ")
 tally(answer8)
 
@@ -120,7 +120,9 @@ def result():
 		print("You are a Tank!")
 	elif d > a and d > b and d > c and d > e:
 		print("You are an Assassin!")
-	else:
+	elif e > a and e > b and e > c and e > d:
 		print("You are a Healer!")
+	else:
+		print("You're 2 complicated. Please take quiz again and change like one of your answers.")
 
 result()
