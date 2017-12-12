@@ -27,7 +27,7 @@ def tally(x):
 		return e
 
 
-username = input("Welcome to our game. Enter your name: ")
+username = input("Welcome to the Character Archetype Quiz! Enter your name: ")
 
 print("Welcome",username,".")
 print("Q1: If you were caught in a position to defend yourself, which weapon would you prefer?")
